@@ -1,0 +1,32 @@
+Kevin Doyle
+CMPS 115
+November 6, 2015
+RAC 3
+
+Okay so this plan didn't really work out haha. If you're just now reviewing my summary, note the date of the last commit. I'm really late on this assignment and probably shouldn't get any credit for my work here. It's too bad because the summary points are really straight forward...I found parts of the article so dry I'd put it down and not finish. 
+
+Summary: 
+
+	This paper describes how efficient software development can be achieved by using a team management method in conjunction with proper software engineering practices. There is emphasis on how teams following these two diciplines together, produce better results than teams following just one or the other. The paper was orginially published in September of 2011, in the "Proceedings of the 2011 International Symposium on Empirical Software Engineering and Measurement".
+
+	We start with a quick description of Scrum, with statistics showing the benefits of Scrum, and a warning about misuse. "Flaccid Scrum" is a memorable term. It refers to the state of a software development team which has organized itself using Scrum, but has not utilized proper software engineering practices. When neglecting software engineering practices, Scrum's short bursts of work and finality of releases can lead to the creation of a weak code base. Progress will slow down, and backtracking may become necessary.
+
+	Continuing, the Scrum process is explained in more detail. Everyone in 115 should know these details, I'm not going to repeat them. 
+
+	Research on Scrum is not easily quanitified. Variables in each use case include team size, experience, and assignment. While team sizes can be easily compared, it's very doubtful that the latter two variables will ever be matched across two separate teams. So, the paper describes case studies, in which the experinces are considered 'normal', and the analysis of a team's performance can still offer evidence from which conclusions may be drawn.
+
+	Three Microsoft teams are observed in this study. Along with Scrum, they utilize software engineering techniques. 
+
+	One is "Continuous Integration", where every day each developer will integrate their code with the rest of the group, and the complete build is tested to ensure the code is good. 
+
+	"Unit Test-Driven Development" is another technique used. For this, an engineer regularly switches between writing program code, and writing code for testing the program code. The tests are run frequently, and mistakes are fixed as they are discovered. This makes code development progress slower, but reduces the number of code errors. 
+
+	"Quality Gates" are predetermined requirements which must be met before something is considered done. This prevents a "good enough" attitude when completing features. As an example, for the Microsoft teams, their 'gates' included: All unit tests must pass, Public methods must have documentation, Unit test code coverage must be at least eighty percent. 
+
+	"Code Coverage" relates to the creation of automated unit tests for the code. These tests can be written to explore every outcome in the code, but some outcomes lead to expected errors and writing tests to check for those is somewhat inefficient. Thus code coverage refers to the percent of code which has tests written for it, and a higher code coverage ensures a better product. Generally, the Microsoft teams decided that code coverage above eighty percent was uneccessary.
+
+	In the results, it appears that by adopting Scrum, these teams became much more efficient. After adopting Scrum, and getting over a moment of diminished productivity, all of the teams showed improvement. One team was producing 250% more LOC than they had before. Also, the two teams tightly adopting Unit Test-Driven Development had significantly fewer errors than observed non-Scrum teams.
+
+
+
+	
